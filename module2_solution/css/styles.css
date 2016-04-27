@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 
+{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+section 
+{
+	padding: 15px;
+}
+
+.box {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+#secTitle1
+{
+	background-color: pink;
+}
+
+#secTitle2
+{
+	background-color: maroon;
+}
+
+#secTitle3
+{
+	background-color: yellow;
+}
+
+#secTitle1, #secTitle2, #secTitle3
+{
+	width: 90px;
+	height: 30px;
+	border: 1px solid black;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.content {
+	clear: right;
+	padding: 5px 5px 5px 5px;
+	font-family: Helvetica;
+}
+
+
+/* desktop device */
+@media (min-width: 992px)
+{
+	.col-desktop-4
+	{
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+/* tablet device */
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-tablet-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-tablet-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+/* mobile device */
+@media (max-width: 767px) 
+{
+	.col-mobile-12 {
+		float: left;
+		width: 100%;
+	}
+
+}
