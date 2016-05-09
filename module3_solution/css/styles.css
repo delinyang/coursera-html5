@@ -71,10 +71,12 @@
 	background-color: orange;
 	height: 1000px;
 	width: 100%;
+	padding-top: 3px;
 }
 
 #menu_item_detail
 {
+
 	margin-left: 10px;
 	margin-right: 10px;
 }
